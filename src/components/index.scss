@@ -1,0 +1,11 @@
+
+// 重置 nprogress 样式
+
+body{
+    #nprogress {
+        .bar{
+            background: rgba(24,153,221,0.9);
+            height: 4px;
+        }
+    }
+}

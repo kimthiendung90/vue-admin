@@ -1,0 +1,55 @@
+@import "mixins";
+@import "reset";
+@import "base";
+@import "flex";
+
+html, body{
+    color: $mainColor;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: $mainBg;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    font-smoothing: antialiased;
+}
+
+body, h1, h2, h3, h4, h5, h6, input, textarea, button {
+    font-family: $font-face !important;
+    font-size: 14px;
+}
+
+address, b, caption, cite, code, dfn, em, i, th, var {
+    font-style: normal;
+    font-weight: 500;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.w100{
+    width: 100%;
+}
+
+[lazy=loaded] {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.wrap {
+    position: relative;
+}
+.rotate90{transform: rotate(90deg)}
+.rotate180{transform: rotate(180deg)}
+.rotate-90{transform: rotate(-90deg)}
+.color-red{color: $colorRed !important;}

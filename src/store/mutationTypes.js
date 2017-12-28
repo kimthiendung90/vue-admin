@@ -1,0 +1,5 @@
+
+export const UPDATE_USER = 'UPDATE_USER'
+export const UPDATE_LOGIN = 'UPDATE_LOGIN'
+
+export const UPDATE_COLLAPSE = 'UPDATE_COLLAPSE'

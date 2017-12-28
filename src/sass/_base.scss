@@ -1,0 +1,98 @@
+@import "mixins";
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+.tc {
+    text-align: center;
+}
+
+.red {
+    color: $colorRed;
+}
+
+.selector {
+    width: 150px;
+    height: 64px; /*px*/
+    font-size: 28px; /*px*/
+    border: 1px solid #ddd; /*no*/
+}
+
+.ellipsis {
+    white-space: nowrap;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pd20{padding: 20px;}
+.pt20{padding-top: 20px;}
+.pb20{padding-bottom: 20px;}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.bg9 {
+    background: #e9e9e9;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.color-9 {
+    color: $color9;
+}
+
